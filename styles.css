@@ -49,7 +49,7 @@ aside{
     background-color: #EC7063;
 }
 
-div{
+#divDiv{
     grid-area: div;
     background-color: #F5B7B1;
 }
@@ -57,7 +57,19 @@ div{
 footer{
     grid-area: footer;
     background-color: #F1948A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
+
+.divFooter{
+    display: flex;
+    justify-content: space-around;
+    width: 450px;
+    height: 100px;
+}
+
 
 .memeGretchen{
     width: 220px;
@@ -66,7 +78,7 @@ footer{
     max-width: 90%;
 }
 
-header, section, aside, div{
+header, section, aside, #divDiv{
     display: flex;
     align-items: center;
     justify-content: center;
