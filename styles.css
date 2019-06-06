@@ -59,6 +59,20 @@ footer{
     background-color: #F1948A;
 }
 
+.memeGretchen{
+    width: 220px;
+    height: 220px;
+    border-radius: 100%;
+    max-width: 90%;
+}
+
+header, section, aside, div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 @media(max-width: 768px){
     body{
         grid-template-areas: 'navbar navbar navbar navbar'
